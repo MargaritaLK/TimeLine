@@ -1,4 +1,16 @@
-.go-botton {
-  height:30px;
-  width:100px;
+.go-button {
+  height:45px;
+  width:150px;
+  transition: all .2s ease-in-out;
+  background-color: red;
+  color:white;
+  position: absolute;
+  text-align: center;
+  right: -20px;
+  bottom: -20px;
+  font-size: 20px;
+  padding: 5px;
+
 }
+
+.go-button:hover { transform: scale(1.1); }
