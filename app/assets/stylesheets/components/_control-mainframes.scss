@@ -11,7 +11,7 @@
 .control-panel {
   height: 100%;
   width: 50%;
-  background-color:#A3BFD9;
+  background-color:#5D84A6;
 }
 
 .control-rows {
@@ -20,9 +20,15 @@
 
 .control-row {
   display: flex;
-  margin: 20px 10px;
+  margin: 15px;
   flex-wrap: wrap;
   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+.control-row:hover{
+  box-shadow: inset 0px 0px 15px rgba(255, 0, 101, 0.2);
 }
 
 .control-map {
