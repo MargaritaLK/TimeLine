@@ -9,9 +9,11 @@
 }
 
 .control-panel {
-  height: 100%;
+  min-height: 100%;
   width: 50%;
-  background-color:#5D84A6;
+  background-color:#d1d1d1;
+  border: 6px solid #49728C;
+  overflow: hidden;
 }
 
 .control-rows {
@@ -22,9 +24,9 @@
   display: flex;
   margin: 15px;
   flex-wrap: wrap;
-  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  padding: 0px 5px;
+  padding: 10px;
 }
 
 .control-row:hover{
@@ -35,14 +37,16 @@
   height: 100%;
   width: 50%;
   background-image: url(https://i.imgur.com/8eCWqDM.jpg);
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
   background-size: cover;
+
 }
 
 .control-title {
   width: 100%;
   height: 75px;
-  background-color: #A3BFD9;
-  color: #183140;
+  background-color: #49728C;
+  color: white;
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 0.04em;
