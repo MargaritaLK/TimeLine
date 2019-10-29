@@ -1,13 +1,13 @@
 .control-button {
-  height: 80px;
-  width: 80px;
-  background: #49728C;
+  height: 50px;
+  width: 50px;
+  background: #F26430;
   color: white;
   text-align: center;
   border-radius: 5px;
   margin: 15px 0px 15px 15px;
   padding: 20px;
-  font-size: 16px;
+  font-size: 10px;
   letter-spacing: 0.04em;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.1s ease-in-out;
@@ -16,7 +16,7 @@
 
 
 .control-button:hover {
-  color:#49728C;
+  color:#F26430;
   background-color: white;
   transform: scale(1.05)
 }
