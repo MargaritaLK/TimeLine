@@ -5,4 +5,7 @@ class PagesController < ApplicationController
   def gebiedsverkenning
   end
 
+  def water
+  end
+
 end
