@@ -11,7 +11,7 @@
   font-weight: 900;
   letter-spacing: 0.04em;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-  transition: all 0.1s ease-in-out;
+  transition: all 0.2s ease-in-out;
   overflow: hidden;
   border: 0.5px solid white;
 }
@@ -19,7 +19,7 @@
 .control-button:hover {
   color: #F26430;
   background-color: white;
-  transform: scale(1.1);
+  transform: scale(1.15);
   font-weight: 900;
   border: 2px solid #F26430;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
@@ -29,7 +29,7 @@
 .control-button-active {
   color: #F26430;
   background-color: white;
-  transform: scale(1.1);
+  transform: scale(1.15);
   font-weight: 900;
   border: 2px solid #F26430;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
