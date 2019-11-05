@@ -7,10 +7,10 @@ const controlButtonWaterClicks = () => {
   console.log(buttonScen1_24uur)
 
 
-  // buttonScen1_24uur.addEventListener("click", event => {
-  //       map.style.setProperty(`background-image`, `url(https://i.imgur.com/Y2a03bT.jpg)`);
-  //       buttonScen1_24uur.classList.toggle("control-button-active");
-  // });
+  buttonScen1_24uur.addEventListener("click", event => {
+        map.style.setProperty(`background-image`, `url(https://i.imgur.com/Y2a03bT.jpg)`);
+        buttonScen1_24uur.classList.toggle("control-button-active");
+  });
 
 
 if (buttonScen1_24uur) {
