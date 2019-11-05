@@ -1,10 +1,13 @@
 const controlButtonAreaClicks = () => {
 
-  const map = document.querySelector(".control-map");
-  const inwoners = document.querySelector("#inwoners");
+const map = document.querySelector(".control-map");
+const inwoners = document.querySelector("#inwoners");
 
+
+console.log(inwoners);
+
+if (inwoners) {
   const clickinwoners = () => {
-    if (inwoners) {
       inwoners.addEventListener("click", event => {
           console.log("it works")
           map.style.setProperty(`background-image`, `url(https://i.imgur.com/VGkDxDA.jpg)`);
@@ -12,8 +15,6 @@ const controlButtonAreaClicks = () => {
       });
     };
   };
-
-
 
 };
 
