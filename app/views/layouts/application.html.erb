@@ -10,9 +10,6 @@
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
   </head>
   <body>
-    <%= yield %>
-    <%= javascript_include_tag 'application' %>
-    <%= javascript_pack_tag 'application' %>
 
     <div class="footer">
       <div class="footer-links">
@@ -47,8 +44,13 @@
         <i class="fas fa-info-circle"></i>
       </div>
 
-
     </div>
+
+    <%= yield %>
+    <%= javascript_include_tag 'application' %>
+    <%= javascript_pack_tag 'application' %>
+
+
 
   </body>
 </html>

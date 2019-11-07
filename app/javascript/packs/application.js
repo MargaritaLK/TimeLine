@@ -1,8 +1,10 @@
 import "bootstrap";
-import {controlButtonWaterClicks} from '../packs/controlButtonWaterClicks';
-// import {controlButtonAreaClicks} from '../packs/controlButtonAreaClicks';
+import {controlButtonWaterClicks} from '../controlButtonWaterClicks';
+import {controlButtonAreaClicks} from '../controlButtonAreaClicks';
 
 
 
-controlButtonWaterClicks();
-// controlButtonAreaClicks();
+
+
+// controlButtonWaterClicks();
+controlButtonAreaClicks();
