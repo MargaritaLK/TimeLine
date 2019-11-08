@@ -15,40 +15,76 @@ const controlButtonWaterClicks = () => {
     const buttonS1T6 = document.querySelector("#S1T6");
     const buttonS1T7 = document.querySelector("#S1T7");
 
+    const buttons = document.querySelectorAll(".control-button");
+
+
     buttonS1T1.addEventListener("click", event => {
-      map.classList.toggle("mapS1T1");
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/xTP1nQn.png')"; // 1 uur
       buttonS1T1.classList.toggle("control-button-active");
     });
 
+
     buttonS1T2.addEventListener("click", event => {
-      map.classList.toggle("mapS1T2");
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/8Z4mFw4.png')"; // 3 uur
       buttonS1T2.classList.toggle("control-button-active");
     });
 
+
     buttonS1T3.addEventListener("click", event => {
-      map.classList.toggle("mapS1T3");
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url(https://i.imgur.com/DMuXbdq.png)"; // 6 uur
       buttonS1T3.classList.toggle("control-button-active");
     });
 
+
     buttonS1T4.addEventListener("click", event => {
-      map.classList.toggle("mapS1T4");
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url(https://i.imgur.com/6DpDMMh.png)"; // 9 uur
       buttonS1T4.classList.toggle("control-button-active");
     });
 
+
     buttonS1T5.addEventListener("click", event => {
-      map.classList.toggle("mapS1T5");
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url(https://i.imgur.com/Q2tMWsB.png)"; // 12 uur
       buttonS1T5.classList.toggle("control-button-active");
     });
 
+
     buttonS1T6.addEventListener("click", event => {
-      map.classList.toggle("mapS1T6");
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url(https://i.imgur.com/yIDUoq5.png)"; // 15 uur
       buttonS1T6.classList.toggle("control-button-active");
     });
 
+
     buttonS1T7.addEventListener("click", event => {
-      map.classList.toggle("mapS1T7");
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url(https://i.imgur.com/n2girIi.png)"; // 18 uur
       buttonS1T7.classList.toggle("control-button-active");
     });
+
+
+    // buttonS1T7.addEventListener("click", event => {
+    //   map.classList.toggle("mapS1T7");
+    //   buttonS1T7.classList.toggle("control-button-active");
+    // });
 
   }
 
