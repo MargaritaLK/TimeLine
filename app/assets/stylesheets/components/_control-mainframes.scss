@@ -16,12 +16,12 @@
 }
 
 .control-rows {
-  // margin: 0px
+  // margin: 100px 0px;
 }
 
 .control-row {
   display: flex;
-  margin: 35px 0px;
+  margin: 40px 0px;
   flex-wrap: wrap;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 2px;
@@ -33,7 +33,7 @@
 
 .control-row:hover{
   box-shadow: inset 0px 0px 15px rgba(255, 0, 101, 0.1);
-  border: 1px solid #F26430;
+  border: 1px solid rgba(242, 100, 48, 0.4);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
   // transform: scale(1.01);
 }
