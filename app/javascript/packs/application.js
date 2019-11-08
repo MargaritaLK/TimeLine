@@ -4,7 +4,5 @@ import {controlButtonAreaClicks} from '../controlButtonAreaClicks';
 
 
 
-
-
 controlButtonWaterClicks();
 controlButtonAreaClicks();
