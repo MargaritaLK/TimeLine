@@ -8,4 +8,7 @@ class PagesController < ApplicationController
   def water
   end
 
+  def info
+  end
+
 end
