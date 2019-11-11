@@ -1,8 +1,26 @@
 // Specific CSS for your home-page
 
 #mensen {
-  opacity: 0.4;
+  opacity: 0.8;
   height: 100vh;
+  background-image: url(https://i.imgur.com/3Q3lEAX.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
 }
 
 
+.main-title {
+  width: 60vw;
+  color: #F26430;
+  background-color: #1c2228;
+  position: absolute;
+  // top: 50px;
+  // left: 50px;
+  padding: 15px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+
+
+}
