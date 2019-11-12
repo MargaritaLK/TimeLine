@@ -7,17 +7,47 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  z-index: -1;
+  // z-index: -1;
+  position: relative;
+}
+
+
+.mainpage-container {
+  width: 90vw;
+  height: 80vh;
+  position: absolute;
+  left: 10vh;
+  top: 10vw
 }
 
 
 .main-title {
-  width: 90vw;
   color: white;
-  margin: 0 auto;
-  padding: 15px;
-  letter-spacing: 0.1em;
-  font-weight: 500;
+  letter-spacing: 0.04em;
+  font-size: 75px;
+  font-weight: 100;
+  margin: 0px;
+}
+
+.second-title {
+  color: #F26430;
+  font-weight: 100;
+  font-size: 50px;
+}
 
 
+.third-title {
+  color: white;
+  font-weight: 100;
+  font-size: 35px;
+  letter-spacing: 0.039em;
+}
+
+
+.author {
+  color: white;
+  font-weight: 100;
+  font-size: 40px;
+  position: absolute;
+  bottom: 100px;
 }
