@@ -2,13 +2,23 @@ class PagesController < ApplicationController
   def home
   end
 
-  def gebiedsverkenning
+  def inloop
   end
 
-  def water
+  def introductie
   end
 
-  def info
+  def t72
   end
+
+  def t48
+  end
+
+  def t24
+  end
+
+  def doorbraak
+  end
+
 
 end
