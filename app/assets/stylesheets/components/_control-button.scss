@@ -1,11 +1,12 @@
 .control-button {
   height: 50px;
   min-width: 50px;
+  max-width: 100px;
   background: #364559;
   color: #F26430;
   text-align: center;
   border-radius: 12px;
-  margin: 15px 0px 15px 15px;
+  margin: 10px 0px 10px 15px;
   padding: 8px;
   font-size: 10px;
   font-weight: 900;
@@ -14,6 +15,7 @@
   transition: all 0.2s ease-in-out;
   overflow: hidden;
   border: 1.5px solid #F26430;
+  flex-wrap: wrap;
 }
 
 .control-button:hover {
@@ -48,7 +50,7 @@
 .control-button-row {
  display: flex;
  flex-wrap: wrap;
- margin: 0px 0px 0px 50px;
+ margin: 8px 0px 0px 20px;
 
 
 }

@@ -3,3 +3,14 @@ body {
   background-color: #364559;
 }
 
+
+.no-link_style {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.no-link_style:hover {
+    text-decoration: none;
+    // color: inherit;
+  }
