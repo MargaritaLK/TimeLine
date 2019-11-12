@@ -15,15 +15,27 @@
       <div class="footer-links">
 
         <%= link_to root_path do %>
-           <div class="footer-thema"></div>
+           <div class="nav-buttons"></div>
+        <% end %>
+
+        <%= link_to inloop_path do %>
+          <div class="nav-buttons">inloop</div>
+        <% end %>
+
+        <%= link_to introductie_path do %>
+          <div class="nav-buttons">introductie</div>
         <% end %>
 
         <%= link_to t72_path do %>
-          <div class="footer-thema gebied"></div>
+          <div class="nav-buttons gebied">T-72</div>
         <% end %>
 
         <%= link_to t48_path do %>
-          <div class="footer-thema flood"></div>
+          <div class="nav-buttons flood">T-48</div>
+        <% end %>
+
+        <%= link_to doorbraak_path do %>
+          <div class="nav-buttons flood">doorbraak</div>
         <% end %>
 
       </div>
