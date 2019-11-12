@@ -1,7 +1,7 @@
-.nav-buttons {  height: 60px;
+.nav-buttons {
+  height: 50px;
   width: 100px;
   margin: 10px;
-  opacity: 0.6;
   border: 1px solid rgb(220,220,220);
   border-radius: 9px;
   color: white;
@@ -9,10 +9,14 @@
   text-align: center;
   text-decoration: none;
   font-size: 15px;
+  font-weight: 900px;
 }
 
 .nav-buttons:hover{
   opacity: 1;
   border: 1px solid rgba(250, 250, 250, 1);
+  color: #1c2228;
+  background-color: white;
+  opacity: 0.8;
 }
 
