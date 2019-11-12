@@ -3,5 +3,7 @@ Rails.application.routes.draw do
   get '/gebiedsverkenning', to: 'pages#gebiedsverkenning'
   get '/water', to: 'pages#water'
   get '/info', to: 'pages#info'
+  # get '/info', to: 'pages#info'
+  # get '/info', to: 'pages#info'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
