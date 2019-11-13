@@ -1,15 +1,20 @@
 .nav-buttons {
-  height: 50px;
-  width: 100px;
-  margin: 10px;
+  height: 60px;
+  width: 90px;
+  margin: 4px 20px;
   border: 1px solid rgb(220,220,220);
   border-radius: 9px;
   color: white;
-  padding: 10px;
+  // padding: 10px;
   text-align: center;
   text-decoration: none;
   font-size: 15px;
   font-weight: 900px;
+}
+
+.nav-buttons img {
+  width: 40px;
+  height: 40px;
 }
 
 .nav-buttons:hover{
@@ -26,9 +31,58 @@
 }
 
 
-
 .link-page {
   text-decoration: none;
   color: inherit;
 
 }
+
+.nav-home {
+  background: url(https://i.imgur.com/UW86pW0.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8;
+}
+
+
+.nav-inloop {
+  background: url(https://i.imgur.com/RJCRaWw.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav-72 {
+  background: url(https://i.imgur.com/wRt75Cu.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav-48 {
+  background: url(https://i.imgur.com/jfESczT.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav-24 {
+  background: url(https://i.imgur.com/kp7TKGM.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav-doorbraak {
+  background: url(https://i.imgur.com/OrOVr1E.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+
+
