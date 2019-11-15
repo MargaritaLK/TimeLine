@@ -81,10 +81,6 @@ const controlButtonWaterClicks = () => {
     });
 
 
-    // buttonS1T7.addEventListener("click", event => {
-    //   map.classList.toggle("mapS1T7");
-    //   buttonS1T7.classList.toggle("control-button-active");
-    // });
 
   }
 

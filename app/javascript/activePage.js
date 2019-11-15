@@ -3,9 +3,9 @@ const activePage = () => {
   const linksPath = document.querySelectorAll('.link-page')
   const activeNavButtons = document.querySelectorAll('.nav-buttons.nav-active')
 
-  console.log(path)
-  console.log(linksPath)
-  console.log(activeNavButtons)
+  // console.log(path)
+  // console.log(linksPath)
+  // console.log(activeNavButtons)
 
   activeNavButtons.forEach(item => item.classList.remove('nav-active'))
 
