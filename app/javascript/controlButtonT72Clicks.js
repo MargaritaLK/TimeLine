@@ -33,6 +33,17 @@ const controlButtonT72Clicks = () => {
       buttonKooysluis.classList.toggle("control-button-active");
     });
 
+    buttonKoopvaderschutsluis.addEventListener("click", event => {
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/KHogjLN.png')"; // RWZI
+      buttonKoopvaderschutsluis .classList.toggle("control-button-active");
+    });
+
+
+
+
 
     buttonRWZI.addEventListener("click", event => {
        buttons.forEach(button => {
