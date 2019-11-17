@@ -4,8 +4,38 @@ const controlButtonT72Clicks = () => {
   const map = document.querySelector(".control-map");
   const buttons = document.querySelectorAll(".control-button");
 
+  const situatie = document.querySelector("#situatie");
   const assets = document.querySelector("#assets");
   const hoogte = document.querySelector("#hoogte");
+
+
+
+  if(situatie){
+    console.log("situatie excist")
+
+    const buttonWeerbeeld = document.querySelector("#weerbeeld");
+    const buttonIWO = document.querySelector("#IWO");
+
+    buttonWeerbeeld.addEventListener("click", event => {
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/WZqPDPC.jpg')"; // keringen
+      buttonWeerbeeld.classList.toggle("control-button-active");
+    });
+
+      buttonIWO.addEventListener("click", event => {
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/uRKc1xf.png')"; // keringen
+      buttonIWO.classList.toggle("control-button-active");
+    });
+
+
+
+  };
+
 
 
   if(assets){
@@ -45,7 +75,7 @@ const controlButtonT72Clicks = () => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/tdgMjtq.png')";
+      map.style.backgroundImage = "url('https://i.imgur.com/MzQgb8d.png')";
       buttonRWZI.classList.toggle("control-button-active");
     });
 
@@ -107,7 +137,7 @@ const controlButtonT72Clicks = () => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/l8plHEc.jpg')";
+      map.style.backgroundImage = "url('https://i.imgur.com/0xyYPaR.jpg')";
       buttonDroog.classList.toggle("control-button-active");
     });
 
