@@ -40,6 +40,7 @@ const controlButtonT72Clicks = () => {
     console.log("informatie excist")
 
     const buttonWegen = document.querySelector("#wegen");
+    const buttonInwoners = document.querySelector("#inwoners");
 
 
     buttonWegen.addEventListener("click", event => {
@@ -48,6 +49,15 @@ const controlButtonT72Clicks = () => {
       });
       map.style.backgroundImage = "url('https://i.imgur.com/aXfGLma.jpg')"; // keringen
       buttonWegen.classList.toggle("control-button-active");
+    });
+
+
+    buttonInwoners.addEventListener("click", event => {
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/2eigQgG.jpg')"; // keringen
+      buttonInwoners.classList.toggle("control-button-active");
     });
 
 
