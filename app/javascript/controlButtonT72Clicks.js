@@ -5,6 +5,7 @@ const controlButtonT72Clicks = () => {
   const buttons = document.querySelectorAll(".control-button");
 
   const situatie = document.querySelector("#situatie");
+  const informatie = document.querySelector("#informatie");
   const assets = document.querySelector("#assets");
   const hoogte = document.querySelector("#hoogte");
 
@@ -32,9 +33,27 @@ const controlButtonT72Clicks = () => {
       buttonIWO.classList.toggle("control-button-active");
     });
 
+  };
+
+
+   if(informatie){
+    console.log("informatie excist")
+
+    const buttonWegen = document.querySelector("#wegen");
+
+
+    buttonWegen.addEventListener("click", event => {
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/aXfGLma.jpg')"; // keringen
+      buttonWegen.classList.toggle("control-button-active");
+    });
 
 
   };
+
+
 
 
 
@@ -59,7 +78,7 @@ const controlButtonT72Clicks = () => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/BrkVAO4.png')"; // RWZI
+      map.style.backgroundImage = "url('https://i.imgur.com/XcQIRoO.png')"; // RWZI
       buttonKooysluis.classList.toggle("control-button-active");
     });
 
@@ -67,7 +86,7 @@ const controlButtonT72Clicks = () => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/KHogjLN.png')";
+      map.style.backgroundImage = "url('https://i.imgur.com/gQYW68a.png')";
       buttonKoopvaderschutsluis .classList.toggle("control-button-active");
     });
 
@@ -75,7 +94,7 @@ const controlButtonT72Clicks = () => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/MzQgb8d.png')";
+      map.style.backgroundImage = "url('https://i.imgur.com/QVkmsr1.png')";
       buttonRWZI.classList.toggle("control-button-active");
     });
 
