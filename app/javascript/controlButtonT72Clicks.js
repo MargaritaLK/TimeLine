@@ -41,6 +41,7 @@ const controlButtonT72Clicks = () => {
 
     const buttonWegen = document.querySelector("#wegen");
     const buttonInwoners = document.querySelector("#inwoners");
+    const buttonWatersysteem = document.querySelector("#watersysteem");
 
 
     buttonWegen.addEventListener("click", event => {
@@ -58,6 +59,14 @@ const controlButtonT72Clicks = () => {
       });
       map.style.backgroundImage = "url('https://i.imgur.com/2eigQgG.jpg')"; // keringen
       buttonInwoners.classList.toggle("control-button-active");
+    });
+
+    buttonWatersysteem.addEventListener("click", event => {
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/CRiDXZc.jpg')"; // keringen
+      buttonWatersysteem.classList.toggle("control-button-active");
     });
 
 
