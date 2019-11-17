@@ -15,6 +15,7 @@ const controlButtonT72Clicks = () => {
     console.log("situatie excist")
 
     const buttonWeerbeeld = document.querySelector("#weerbeeld");
+    const buttonWind = document.querySelector("#wind");
     const buttonIWO = document.querySelector("#IWO");
 
     buttonWeerbeeld.addEventListener("click", event => {
@@ -23,6 +24,14 @@ const controlButtonT72Clicks = () => {
       });
       map.style.backgroundImage = "url('https://i.imgur.com/WZqPDPC.jpg')"; // keringen
       buttonWeerbeeld.classList.toggle("control-button-active");
+    });
+
+    buttonWind.addEventListener("click", event => {
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/vX0qK7Y.png')"; // keringen
+      buttonWind.classList.toggle("control-button-active");
     });
 
       buttonIWO.addEventListener("click", event => {
