@@ -97,7 +97,7 @@ const controlButtonT72Clicks = () => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/fnpnesM.jpg')"; // keringen
+      map.style.backgroundImage = "url('https://i.imgur.com/rkSJHaO.jpg')"; // keringen
       buttonKeringen.classList.toggle("control-button-active");
     });
 
