@@ -89,9 +89,9 @@ const controlButtonT72Clicks = () => {
     console.log("assets excist")
 
     const buttonKeringen = document.querySelector("#keringen");
-    const buttonKooysluis = document.querySelector("#kooysluis");
-    const buttonKoopvaderschutsluis = document.querySelector("#koopvaderschutsluis");
-    const buttonRWZI = document.querySelector("#RWZI");
+    // const buttonKooysluis = document.querySelector("#kooysluis");
+    // const buttonKoopvaderschutsluis = document.querySelector("#koopvaderschutsluis");
+    // const buttonRWZI = document.querySelector("#RWZI");
 
     buttonKeringen.addEventListener("click", event => {
        buttons.forEach(button => {
@@ -102,29 +102,29 @@ const controlButtonT72Clicks = () => {
     });
 
 
-    buttonKooysluis.addEventListener("click", event => {
-       buttons.forEach(button => {
-         button.classList.remove("control-button-active");
-      });
-      map.style.backgroundImage = "url('https://i.imgur.com/XcQIRoO.png')"; // RWZI
-      buttonKooysluis.classList.toggle("control-button-active");
-    });
+    // buttonKooysluis.addEventListener("click", event => {
+    //    buttons.forEach(button => {
+    //      button.classList.remove("control-button-active");
+    //   });
+    //   map.style.backgroundImage = "url('https://i.imgur.com/XcQIRoO.png')"; // RWZI
+    //   buttonKooysluis.classList.toggle("control-button-active");
+    // });
 
-    buttonKoopvaderschutsluis.addEventListener("click", event => {
-       buttons.forEach(button => {
-         button.classList.remove("control-button-active");
-      });
-      map.style.backgroundImage = "url('https://i.imgur.com/gQYW68a.png')";
-      buttonKoopvaderschutsluis .classList.toggle("control-button-active");
-    });
+    // buttonKoopvaderschutsluis.addEventListener("click", event => {
+    //    buttons.forEach(button => {
+    //      button.classList.remove("control-button-active");
+    //   });
+    //   map.style.backgroundImage = "url('https://i.imgur.com/gQYW68a.png')";
+    //   buttonKoopvaderschutsluis .classList.toggle("control-button-active");
+    // });
 
-    buttonRWZI.addEventListener("click", event => {
-       buttons.forEach(button => {
-         button.classList.remove("control-button-active");
-      });
-      map.style.backgroundImage = "url('https://i.imgur.com/QVkmsr1.png')";
-      buttonRWZI.classList.toggle("control-button-active");
-    });
+    // buttonRWZI.addEventListener("click", event => {
+    //    buttons.forEach(button => {
+    //      button.classList.remove("control-button-active");
+    //   });
+    //   map.style.backgroundImage = "url('https://i.imgur.com/QVkmsr1.png')";
+    //   buttonRWZI.classList.toggle("control-button-active");
+    // });
 
   };
 
@@ -133,10 +133,10 @@ const controlButtonT72Clicks = () => {
     console.log("hoogte excist")
 
     const buttonGroterDan55meter = document.querySelector("#groterdan55meter");
-    const buttonGroterDan45meter = document.querySelector("#groterdan45meter");
-    const buttonGroterDan35meter = document.querySelector("#groterdan35meter");
+    // const buttonGroterDan45meter = document.querySelector("#groterdan45meter");
+    // const buttonGroterDan35meter = document.querySelector("#groterdan35meter");
     const buttonGroterDan25meter = document.querySelector("#groterdan25meter");
-    const buttonGroterDan2meter = document.querySelector("#groterdan2meter");
+    // const buttonGroterDan2meter = document.querySelector("#groterdan2meter");
     const buttonDroog = document.querySelector("#droog");
 
     buttonGroterDan55meter.addEventListener("click", event => {
@@ -148,21 +148,21 @@ const controlButtonT72Clicks = () => {
     });
 
 
-    buttonGroterDan45meter.addEventListener("click", event => {
-       buttons.forEach(button => {
-         button.classList.remove("control-button-active");
-      });
-      map.style.backgroundImage = "url('https://i.imgur.com/kXeXdxh.jpg')";
-      buttonGroterDan45meter.classList.toggle("control-button-active");
-    });
+    // buttonGroterDan45meter.addEventListener("click", event => {
+    //    buttons.forEach(button => {
+    //      button.classList.remove("control-button-active");
+    //   });
+    //   map.style.backgroundImage = "url('https://i.imgur.com/kXeXdxh.jpg')";
+    //   buttonGroterDan45meter.classList.toggle("control-button-active");
+    // });
 
-    buttonGroterDan35meter.addEventListener("click", event => {
-       buttons.forEach(button => {
-         button.classList.remove("control-button-active");
-      });
-      map.style.backgroundImage = "url('https://i.imgur.com/tYYenB1.jpg')";
-      buttonGroterDan35meter.classList.toggle("control-button-active");
-    });
+    // buttonGroterDan35meter.addEventListener("click", event => {
+    //    buttons.forEach(button => {
+    //      button.classList.remove("control-button-active");
+    //   });
+    //   map.style.backgroundImage = "url('https://i.imgur.com/tYYenB1.jpg')";
+    //   buttonGroterDan35meter.classList.toggle("control-button-active");
+    // });
 
     buttonGroterDan25meter.addEventListener("click", event => {
        buttons.forEach(button => {
@@ -172,13 +172,13 @@ const controlButtonT72Clicks = () => {
       buttonGroterDan25meter.classList.toggle("control-button-active");
     });
 
-    buttonGroterDan2meter.addEventListener("click", event => {
-       buttons.forEach(button => {
-         button.classList.remove("control-button-active");
-      });
-      map.style.backgroundImage = "url('https://i.imgur.com/duJ3vOo.jpg')";
-      buttonGroterDan2meter.classList.toggle("control-button-active");
-    });
+    // buttonGroterDan2meter.addEventListener("click", event => {
+    //    buttons.forEach(button => {
+    //      button.classList.remove("control-button-active");
+    //   });
+    //   map.style.backgroundImage = "url('https://i.imgur.com/duJ3vOo.jpg')";
+    //   buttonGroterDan2meter.classList.toggle("control-button-active");
+    // });
 
     buttonDroog.addEventListener("click", event => {
        buttons.forEach(button => {
