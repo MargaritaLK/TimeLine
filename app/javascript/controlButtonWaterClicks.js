@@ -100,7 +100,7 @@ const controlButtonWaterClicks = () => {
     const buttonS2T2 = document.querySelector("#S2T2");
     const buttonS2T3 = document.querySelector("#S2T3");
     const buttonS2T4 = document.querySelector("#S2T4");
-    // const buttonS2T5 = document.querySelector("#S2T5");
+    const buttonS2T5 = document.querySelector("#S2T5");
     // const buttonS2T6 = document.querySelector("#S2T6");
     const buttonS2T7 = document.querySelector("#S2T7");
 
@@ -120,7 +120,7 @@ const controlButtonWaterClicks = () => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/3vKsb1t.jpg')"; // 3uur
+      map.style.backgroundImage = "url('https://i.imgur.com/RaJyX5k.jpg')"; // 2uur
       buttonS2T2.classList.toggle("control-button-active");
     });
 
@@ -129,16 +129,25 @@ const controlButtonWaterClicks = () => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/mAPeXeq.jpg')"; // 6UUR
+      map.style.backgroundImage = "url('https://i.imgur.com/3vKsb1t.jpg')"; // 3uur
       buttonS2T3.classList.toggle("control-button-active");
     });
+
 
     buttonS2T4.addEventListener("click", event => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/i5u3rL5.jpg')"; // 12 uur
+      map.style.backgroundImage = "url('https://i.imgur.com/mAPeXeq.jpg')"; // 6UUR
       buttonS2T4.classList.toggle("control-button-active");
+    });
+
+    buttonS2T5.addEventListener("click", event => {
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/i5u3rL5.jpg')"; // 12 uur
+      buttonS2T5.classList.toggle("control-button-active");
     });
 
 
