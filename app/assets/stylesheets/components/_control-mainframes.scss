@@ -17,9 +17,15 @@
   // margin: 100px 0px;
 }
 
+.row-space {
+  // margin: 100px 0px;
+  justify-content: space-between;
+}
+
+
 .control-row {
   display: flex;
-  margin: 20px 0px;
+  margin: 20px;
   // flex-wrap: wrap;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 2px;
