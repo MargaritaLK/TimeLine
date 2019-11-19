@@ -29,7 +29,7 @@ const controlButtonT72Clicks = () => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/1GAXVUh.png')";
+      map.style.backgroundImage = "url('https://i.imgur.com/36ftVAk.png')";
       buttonRegios.classList.toggle("control-button-active");
     });
 
