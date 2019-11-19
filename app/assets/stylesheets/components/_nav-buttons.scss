@@ -1,7 +1,8 @@
 .nav-buttons {
-  height: 60px;
-  width: 90px;
-  margin: 4px 20px;
+  height: 4em;
+  width: 7em;
+
+  margin: 4px 17px;
   border: 1px solid rgb(220,220,220);
   border-radius: 9px;
   color: white;
@@ -30,11 +31,9 @@
   z-index: 0;
 }
 
-
 .link-page {
   text-decoration: none;
   color: inherit;
-
 }
 
 .nav-home {
@@ -44,7 +43,6 @@
   background-position: center;
   opacity: 0.8;
 }
-
 
 .nav-inloop {
   background: url(https://i.imgur.com/RJCRaWw.png);
