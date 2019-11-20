@@ -5,8 +5,8 @@ const controlButtonT72Clicks = () => {
   const buttons = document.querySelectorAll(".control-button");
 
   const situatie = document.querySelector("#situatie");
-  const informatie = document.querySelector("#informatie");
   const assets = document.querySelector("#assets");
+  const inhabitants = document.querySelector("#inhabitants");
   const hoogte = document.querySelector("#hoogte");
 
 
@@ -36,13 +36,19 @@ const controlButtonT72Clicks = () => {
 
   };
 
+   if(assets){
+    console.log("assets excist")
 
-   if(informatie){
-    console.log("informatie excist")
-
+    const buttonKeringen = document.querySelector("#keringen");
     const buttonWegen = document.querySelector("#wegen");
-    const buttonInwoners = document.querySelector("#inwoners");
 
+    buttonKeringen.addEventListener("click", event => {
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/Pdzwo5l.jpg')"; // keringen
+      buttonKeringen.classList.toggle("control-button-active");
+    });
 
     buttonWegen.addEventListener("click", event => {
        buttons.forEach(button => {
@@ -51,6 +57,14 @@ const controlButtonT72Clicks = () => {
       map.style.backgroundImage = "url('https://i.imgur.com/egmOG0C.jpg')"; // keringen
       buttonWegen.classList.toggle("control-button-active");
     });
+
+  };
+
+
+
+   if(inhabitants){
+    console.log("inhabitants excist")
+    const buttonInwoners = document.querySelector("#inwoners");
 
 
     buttonInwoners.addEventListener("click", event => {
@@ -68,21 +82,6 @@ const controlButtonT72Clicks = () => {
 
 
 
-  if(assets){
-    console.log("assets excist")
-
-    const buttonKeringen = document.querySelector("#keringen");
-
-    buttonKeringen.addEventListener("click", event => {
-       buttons.forEach(button => {
-         button.classList.remove("control-button-active");
-      });
-      map.style.backgroundImage = "url('https://i.imgur.com/rkSJHaO.jpg')"; // keringen
-      buttonKeringen.classList.toggle("control-button-active");
-    });
-
-
-  };
 
 
   if(hoogte){
