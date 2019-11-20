@@ -63,9 +63,10 @@ const controlButtonT72Clicks = () => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/8fgALQp.jpg')";
-      map.classList.add("control-map-fixed");
+      map.style.backgroundImage = "url('https://i.imgur.com/tPxD4jj.jpg')";
+      // map.classList.add("control-map-fixed");
       buttonVitaleAssets.classList.toggle("control-button-active");
+      // map.classList.remove("control-map-fixed");
     });
 
   };
