@@ -9,10 +9,14 @@ const controlButtonWaterClicks = () => {
   if(scenario1){
     console.log("scenario 1 excist")
     const buttonS1T1u = document.querySelector("#S1T1u");
+    const buttonS1T2u = document.querySelector("#S1T2u");
     const buttonS1T3u = document.querySelector("#S1T3u");
-    const buttonS1T6u = document.querySelector("#S1T6u");
+    const buttonS1T5u = document.querySelector("#S1T5u");
     const buttonS1T9u = document.querySelector("#S1T9u");
-    const buttonS1T12u = document.querySelector("#S1T12u");
+    const buttonS1T10u = document.querySelector("#S1T10u");
+    const buttonS1T11u = document.querySelector("#S1T11u");
+    const buttonS1T13u = document.querySelector("#S1T13u");
+    const buttonS1T18u = document.querySelector("#S1T18u");
     const buttonS1T24u = document.querySelector("#S1T24u");
     const buttonS1T36u = document.querySelector("#S1T36u");
     const buttonS1Teind = document.querySelector("#S1Teind");
@@ -24,8 +28,17 @@ const controlButtonWaterClicks = () => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/cTNGlJ7.jpg')"; // 1 uur
+      map.style.backgroundImage = "url('https://i.imgur.com/8WON1JM.jpg')";
       buttonS1T1u.classList.toggle("control-button-active");
+    });
+
+
+    buttonS1T2u.addEventListener("click", event => {
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/BKZzvbw.jpg')";
+      buttonS1T2u.classList.toggle("control-button-active");
     });
 
 
@@ -33,17 +46,16 @@ const controlButtonWaterClicks = () => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/7bO7OE6.jpg')"; // 3 uur
+      map.style.backgroundImage = "url('https://i.imgur.com/cNsFwJV.jpg')";
       buttonS1T3u.classList.toggle("control-button-active");
     });
 
-
-    buttonS1T6u.addEventListener("click", event => {
+    buttonS1T5u.addEventListener("click", event => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url(https://i.imgur.com/Asj8qdW.jpg)"; // 6 uur
-      buttonS1T6u.classList.toggle("control-button-active");
+      map.style.backgroundImage = "url(https://i.imgur.com/n7MEny0.jpg)";
+      buttonS1T5u.classList.toggle("control-button-active");
     });
 
 
@@ -51,17 +63,41 @@ const controlButtonWaterClicks = () => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url(https://i.imgur.com/NycKo2X.jpg)"; // 9 uur
+      map.style.backgroundImage = "url(https://i.imgur.com/0wZVQP5.jpg)";
       buttonS1T9u.classList.toggle("control-button-active");
     });
 
-
-    buttonS1T12u.addEventListener("click", event => {
+    buttonS1T10u.addEventListener("click", event => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url(https://i.imgur.com/NoAhe18.jpg)"; // 12 uur
-      buttonS1T12u.classList.toggle("control-button-active");
+      map.style.backgroundImage = "url(https://i.imgur.com/YqcrpbA.jpg)";
+      buttonS1T10u.classList.toggle("control-button-active");
+    });
+
+    buttonS1T11u.addEventListener("click", event => {
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url(https://i.imgur.com/nedMf8D.jpg)";
+      buttonS1T11u.classList.toggle("control-button-active");
+    });
+
+
+    buttonS1T13u.addEventListener("click", event => {
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url(https://i.imgur.com/Kmg3Ivy.jpg)";
+      buttonS1T13u.classList.toggle("control-button-active");
+    });
+
+    buttonS1T18u.addEventListener("click", event => {
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url(https://i.imgur.com/7O0wweb.jpg)";
+      buttonS1T18u.classList.toggle("control-button-active");
     });
 
 
@@ -69,7 +105,7 @@ const controlButtonWaterClicks = () => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url(https://i.imgur.com/gCkkwu8.jpg)"; // 24 uur
+      map.style.backgroundImage = "url(https://i.imgur.com/zQqPYoo.jpg)";
       buttonS1T24u.classList.toggle("control-button-active");
     });
 
@@ -78,7 +114,7 @@ const controlButtonWaterClicks = () => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url(https://i.imgur.com/UFZvNxd.jpg)"; // 36 uur
+      map.style.backgroundImage = "url(https://i.imgur.com/REvetLi.jpg)";
       buttonS1T36u.classList.toggle("control-button-active");
     });
 
@@ -86,7 +122,7 @@ const controlButtonWaterClicks = () => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url(https://i.imgur.com/U618VC9.jpg)"; // eind - 48uur
+      map.style.backgroundImage = "url(https://i.imgur.com/we8r3Rw.jpg)";
       buttonS1Teind.classList.toggle("control-button-active");
     });
 
