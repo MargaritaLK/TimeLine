@@ -132,67 +132,85 @@ const controlButtonWaterClicks = () => {
 
     if(scenario2){
     console.log("scenario 2 excist")
-    const buttonS2T1 = document.querySelector("#S2T1");
-    const buttonS2T2 = document.querySelector("#S2T2");
-    const buttonS2T3 = document.querySelector("#S2T3");
-    const buttonS2T4 = document.querySelector("#S2T4");
-    const buttonS2T5 = document.querySelector("#S2T5");
-    // const buttonS2T6 = document.querySelector("#S2T6");
-    const buttonS2T7 = document.querySelector("#S2T7");
+    const buttonS2T1u = document.querySelector("#S2T1u");
+    const buttonS2T2u = document.querySelector("#S2T2u");
+    const buttonS2T3u = document.querySelector("#S2T3u");
+    const buttonS2T4u = document.querySelector("#S2T4u");
+    const buttonS2T6u = document.querySelector("#S2T6u");
+    const buttonS2T12u = document.querySelector("#S2T12u");
+    const buttonS2T24u = document.querySelector("#S2T24u");
+    const buttonS2Teind = document.querySelector("#S2Teind");
 
     const buttons = document.querySelectorAll(".control-button");
 
 
-    buttonS2T1.addEventListener("click", event => {
+    buttonS2T1u.addEventListener("click", event => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/R3aLvkk.jpg')"; // 1 uur
-      buttonS2T1.classList.toggle("control-button-active");
+      map.style.backgroundImage = "url('https://i.imgur.com/NsJsMfg.jpg')";
+      buttonS2T1u.classList.toggle("control-button-active");
     });
 
 
-    buttonS2T2.addEventListener("click", event => {
+    buttonS2T2u.addEventListener("click", event => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/RaJyX5k.jpg')"; // 2uur
-      buttonS2T2.classList.toggle("control-button-active");
+      map.style.backgroundImage = "url(https://i.imgur.com/LBMfoaV.jpg)";
+      buttonS2T2u.classList.toggle("control-button-active");
     });
 
 
-    buttonS2T3.addEventListener("click", event => {
+    buttonS2T3u.addEventListener("click", event => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/3vKsb1t.jpg')"; // 3uur
-      buttonS2T3.classList.toggle("control-button-active");
+      map.style.backgroundImage = "url(https://i.imgur.com/0grJsNz.jpg)";
+      buttonS2T3u.classList.toggle("control-button-active");
     });
 
 
-    buttonS2T4.addEventListener("click", event => {
+    buttonS2T4u.addEventListener("click", event => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/mAPeXeq.jpg')"; // 6UUR
-      buttonS2T4.classList.toggle("control-button-active");
+      map.style.backgroundImage = "url(https://i.imgur.com/gnLOahO.jpg)";
+      buttonS2T4u.classList.toggle("control-button-active");
     });
 
-    buttonS2T5.addEventListener("click", event => {
+    buttonS2T6u.addEventListener("click", event => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/i5u3rL5.jpg')"; // 12 uur
-      buttonS2T5.classList.toggle("control-button-active");
+      map.style.backgroundImage = "url(https://i.imgur.com/81xNCHz.jpg)";
+      buttonS2T6u.classList.toggle("control-button-active");
     });
 
 
-    buttonS2T7.addEventListener("click", event => {
+    buttonS2T12u.addEventListener("click", event => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url(https://i.imgur.com/967PiDX.jpg)"; // eind - 38uur
-      buttonS2T7.classList.toggle("control-button-active");
+      map.style.backgroundImage = "url(https://i.imgur.com/RUdk7IJ.jpg)";
+      buttonS2T12u.classList.toggle("control-button-active");
+    });
+
+
+    buttonS2T24u.addEventListener("click", event => {
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url(https://i.imgur.com/ibAxR8I.jpg)";
+      buttonS2T24u.classList.toggle("control-button-active");
+    });
+
+    buttonS2Teind.addEventListener("click", event => {
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url(https://i.imgur.com/8yhYN15.jpg)";
+      buttonS2Teind.classList.toggle("control-button-active");
     });
 
 
