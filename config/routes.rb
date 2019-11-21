@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get '/t24', to: 'pages#t24'
   get '/doorbraak', to: 'pages#doorbraak'
   get '/info', to: 'pages#info'
+  get '/system', to: 'pages#system'
   # get '/info', to: 'pages#info'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

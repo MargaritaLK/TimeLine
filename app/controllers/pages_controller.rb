@@ -20,5 +20,8 @@ class PagesController < ApplicationController
   def doorbraak
   end
 
+  def system
+  end
+
 
 end
