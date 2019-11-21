@@ -76,6 +76,7 @@ const controlButtonT72Clicks = () => {
    if(inhabitants){
     console.log("inhabitants excist")
     const buttonInwoners = document.querySelector("#inwoners");
+    const buttonnNetZelfredzamen = document.querySelector("#niet-zelfredzamen");
 
 
     buttonInwoners.addEventListener("click", event => {
@@ -84,6 +85,14 @@ const controlButtonT72Clicks = () => {
       });
       map.style.backgroundImage = "url('https://i.imgur.com/2eigQgG.jpg')"; // keringen
       buttonInwoners.classList.toggle("control-button-active");
+    });
+
+    buttonnNetZelfredzamen.addEventListener("click", event => {
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/r60Cs8l.jpg')"; // keringen
+      buttonnNetZelfredzamen.classList.toggle("control-button-active");
     });
 
 
