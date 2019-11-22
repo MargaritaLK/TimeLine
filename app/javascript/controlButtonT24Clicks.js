@@ -26,7 +26,7 @@ const controlButtonT24Clicks = () => {
       buttons.forEach(button => {
         button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/QOw4CBG.jpg')";
+      map.style.backgroundImage = "url('https://i.imgur.com/AzX0kjK.jpg')";
       buttonS1Pmd.classList.toggle("control-button-active");
     });
 
