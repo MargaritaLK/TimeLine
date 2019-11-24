@@ -102,14 +102,21 @@ const controlButtonT72Clicks = () => {
 
 
 
-
-
   if(hoogte){
     console.log("hoogte excist")
 
+    const buttonhHogtekaart = document.querySelector("#hoogtekaart");
     const buttonGroterDan55meter = document.querySelector("#groterdan55meter");
     const buttonGroterDan25meter = document.querySelector("#groterdan25meter");
     const buttonDroog = document.querySelector("#droog");
+
+    buttonhHogtekaart.addEventListener("click", event => {
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/emcN14L.jpg')";
+      buttonhHogtekaart.classList.toggle("control-button-active");
+    });
 
     buttonGroterDan55meter.addEventListener("click", event => {
        buttons.forEach(button => {
