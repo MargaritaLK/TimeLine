@@ -12,30 +12,23 @@ const controlButtonT48Clicks = () => {
 
     console.log("impactWater")
 
-    const buttonS1Pmd = document.querySelector("#S1Pmd")
+    const buttonS1PandDepth = document.querySelector("#S1-pand-depth")
+    const buttonMaxWaterdepth = document.querySelector("#max-waterdepth")
 
-    buttonS1Pmd.addEventListener("click", event => {
+    buttonS1PandDepth.addEventListener("click", event => {
       buttons.forEach(button => {
         button.classList.remove("control-button-active");
       });
       map.style.backgroundImage = "url('https://i.imgur.com/OQIxP7P.jpg')";
-      buttonS1Pmd.classList.toggle("control-button-active");
+      buttonS1PandDepth.classList.toggle("control-button-active");
     });
 
-  }
-
-  if (waterdepthZones) {
-
-    console.log("waterdepthZones exicsit")
-
-    const buttonWaterdepthWC = document.querySelector("#waterdepth_wc")
-
-    buttonWaterdepthWC.addEventListener("click", event => {
+    buttonMaxWaterdepth.addEventListener("click", event => {
       buttons.forEach(button => {
         button.classList.remove("control-button-active");
       });
       map.style.backgroundImage = "url('https://i.imgur.com/gzOaNHX.jpg')";
-      buttonWaterdepthWC.classList.toggle("control-button-active");
+      buttonMaxWaterdepth.classList.toggle("control-button-active");
     });
 
   }

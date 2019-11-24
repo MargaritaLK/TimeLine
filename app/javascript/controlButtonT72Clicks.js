@@ -114,7 +114,7 @@ const controlButtonT72Clicks = () => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/emcN14L.jpg')";
+      map.style.backgroundImage = "url('https://i.imgur.com/9l1B1TD.jpg')";
       buttonhHogtekaart.classList.toggle("control-button-active");
     });
 
