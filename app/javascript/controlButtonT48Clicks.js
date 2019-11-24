@@ -5,6 +5,7 @@ const controlButtonT48Clicks = () => {
   const buttons = document.querySelectorAll(".control-button");
 
   const impactWater = document.querySelector("#impact-water");
+  const waterdepthZones = document.querySelector("#waterdepth-zones");
 
 
   if (impactWater) {
@@ -12,7 +13,6 @@ const controlButtonT48Clicks = () => {
     console.log("impactWater")
 
     const buttonS1Pmd = document.querySelector("#S1Pmd")
-    // const buttonS2Pmd = document.querySelector("#S2Pmd")
 
     buttonS1Pmd.addEventListener("click", event => {
       buttons.forEach(button => {
@@ -22,16 +22,21 @@ const controlButtonT48Clicks = () => {
       buttonS1Pmd.classList.toggle("control-button-active");
     });
 
+  }
 
-    // buttonS2Pmd.addEventListener("click", event => {
-    //   buttons.forEach(button => {
-    //     button.classList.remove("control-button-active");
-    //   });
-    //   map.style.backgroundImage = "url('https://i.imgur.com/qfw1GiU.jpg')";
-    //   buttonS2Pmd.classList.toggle("control-button-active");
-    // });
+  if (waterdepthZones) {
 
+    console.log("waterdepthZones exicsit")
 
+    const buttonWaterdepthWC = document.querySelector("#waterdepth_wc")
+
+    buttonWaterdepthWC.addEventListener("click", event => {
+      buttons.forEach(button => {
+        button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/xvDKlDv.jpg')";
+      buttonWaterdepthWC.classList.toggle("control-button-active");
+    });
 
   }
 
