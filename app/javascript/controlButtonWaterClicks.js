@@ -20,6 +20,7 @@ const controlButtonWaterClicks = () => {
     const buttonS1T24u = document.querySelector("#S1T24u");
     const buttonS1T36u = document.querySelector("#S1T36u");
     const buttonS1Teind = document.querySelector("#S1Teind");
+    const buttonS1video = document.querySelector("#S1video");
 
     const buttons = document.querySelectorAll(".control-button");
 
@@ -126,6 +127,7 @@ const controlButtonWaterClicks = () => {
       buttonS1Teind.classList.toggle("control-button-active");
     });
 
+
   }
 
 
@@ -212,6 +214,9 @@ const controlButtonWaterClicks = () => {
       map.style.backgroundImage = "url(https://i.imgur.com/8yhYN15.jpg)";
       buttonS2Teind.classList.toggle("control-button-active");
     });
+
+
+
 
 
   }
