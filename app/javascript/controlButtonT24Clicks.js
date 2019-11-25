@@ -184,6 +184,7 @@ if (scen2Wegen) {
     const buttonS2WaterDepth = document.querySelector("#S2-water-depth")
     const buttonS2PandDepth = document.querySelector("#S2-pand-depth")
     const buttonS2WegenDepth = document.querySelector("#S2-wegen-depth")
+    const buttonCupureAfsluiting = document.querySelector("#coupure_afsluiting")
 
     buttonS2WaterDepth.addEventListener("click", event => {
       buttons.forEach(button => {
@@ -209,6 +210,14 @@ if (scen2Wegen) {
       buttonS2WegenDepth.classList.toggle("control-button-active");
     });
 
+    buttonCupureAfsluiting.addEventListener("click", event => {
+      buttons.forEach(button => {
+        button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/BfENFSk.jpg')";
+      buttonCupureAfsluiting.classList.toggle("control-button-active");
+    });
+
 
   }
 
@@ -220,15 +229,8 @@ if (scen2Wegen) {
 
     console.log("todo")
 
-    const buttonCupureAfsluiting = document.querySelector("#coupure_afsluiting")
 
-    buttonCupureAfsluiting.addEventListener("click", event => {
-      buttons.forEach(button => {
-        button.classList.remove("control-button-active");
-      });
-      map.style.backgroundImage = "url('https://i.imgur.com/BfENFSk.jpg')";
-      buttonCupureAfsluiting.classList.toggle("control-button-active");
-    });
+
 
 
 
