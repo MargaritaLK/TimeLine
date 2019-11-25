@@ -119,6 +119,26 @@ const controlButtonT24Clicks = () => {
 
 
 
+  if (todo) {
+
+    console.log("todo")
+
+    const buttonCupureAfsluiting = document.querySelector("#coupure_afsluiting")
+
+    buttonCupureAfsluiting.addEventListener("click", event => {
+      buttons.forEach(button => {
+        button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/BfENFSk.jpg')";
+      buttonCupureAfsluiting.classList.toggle("control-button-active");
+    });
+
+
+
+  }
+
+
+
 
 
 };
