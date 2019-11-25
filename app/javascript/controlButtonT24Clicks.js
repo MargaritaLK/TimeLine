@@ -6,6 +6,7 @@ const controlButtonT24Clicks = () => {
 
   const scen2Pand = document.querySelector("#scen2-pand");
   const impactS2 = document.querySelector("#impact-S2");
+  const todo = document.querySelector("#todo");
 
 
   if (scen2Pand) {

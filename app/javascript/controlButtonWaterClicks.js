@@ -136,7 +136,7 @@ const controlButtonWaterClicks = () => {
     console.log("scenario 2 excist")
     const buttonS2T1u = document.querySelector("#S2T1u");
     const buttonS2T2u = document.querySelector("#S2T2u");
-    const buttonS2T3u = document.querySelector("#S2T3u");
+    // const buttonS2T3u = document.querySelector("#S2T3u");
     const buttonS2T4u = document.querySelector("#S2T4u");
     const buttonS2T6u = document.querySelector("#S2T6u");
     const buttonS2T12u = document.querySelector("#S2T12u");
@@ -164,13 +164,13 @@ const controlButtonWaterClicks = () => {
     });
 
 
-    buttonS2T3u.addEventListener("click", event => {
-       buttons.forEach(button => {
-         button.classList.remove("control-button-active");
-      });
-      map.style.backgroundImage = "url(https://i.imgur.com/0grJsNz.jpg)";
-      buttonS2T3u.classList.toggle("control-button-active");
-    });
+    // buttonS2T3u.addEventListener("click", event => {
+    //    buttons.forEach(button => {
+    //      button.classList.remove("control-button-active");
+    //   });
+    //   map.style.backgroundImage = "url(https://i.imgur.com/0grJsNz.jpg)";
+    //   buttonS2T3u.classList.toggle("control-button-active");
+    // });
 
 
     buttonS2T4u.addEventListener("click", event => {
