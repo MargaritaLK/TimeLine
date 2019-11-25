@@ -85,17 +85,17 @@ const controlButtonT24Clicks = () => {
 
     console.log("impactS2")
 
-    // const buttonS2WaterDepth = document.querySelector("#S2-water-depth")
+    const buttonS2WaterDepth = document.querySelector("#S2-water-depth")
     const buttonS2PandDepth = document.querySelector("#S2-pand-depth")
     const buttonS2WegenDepth = document.querySelector("#S2-wegen-depth")
 
-    // buttonS2WaterDepth.addEventListener("click", event => {
-    //   buttons.forEach(button => {
-    //     button.classList.remove("control-button-active");
-    //   });
-    //   map.style.backgroundImage = "url('https://i.imgur.com/sKkI2jb.jpg')";
-    //   buttonS2WaterDepth.classList.toggle("control-button-active");
-    // });
+    buttonS2WaterDepth.addEventListener("click", event => {
+      buttons.forEach(button => {
+        button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/pH4QOzt.jpg')";
+      buttonS2WaterDepth.classList.toggle("control-button-active");
+    });
 
     buttonS2PandDepth.addEventListener("click", event => {
       buttons.forEach(button => {
