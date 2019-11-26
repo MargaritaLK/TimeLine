@@ -186,6 +186,7 @@ if (scen2Wegen) {
     const buttonS2WegenDepth = document.querySelector("#S2-wegen-depth")
     const buttonCupureAfsluiting = document.querySelector("#coupure_afsluiting")
 
+
     buttonS2WaterDepth.addEventListener("click", event => {
       buttons.forEach(button => {
         button.classList.remove("control-button-active");
@@ -217,6 +218,8 @@ if (scen2Wegen) {
       map.style.backgroundImage = "url('https://i.imgur.com/BfENFSk.jpg')";
       buttonCupureAfsluiting.classList.toggle("control-button-active");
     });
+
+
 
 
   }

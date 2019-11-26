@@ -15,6 +15,7 @@ const controlButtonT48Clicks = () => {
     const buttonS1WaterDepth = document.querySelector("#S1-water-depth")
     const buttonS1PandDepth = document.querySelector("#S1-pand-depth")
     const buttonS1WegenDepth = document.querySelector("#S1-wegen-depth")
+    const buttonCupureAfsluiting = document.querySelector("#coupure_afsluiting")
 
     buttonS1WaterDepth.addEventListener("click", event => {
       buttons.forEach(button => {
@@ -39,6 +40,15 @@ const controlButtonT48Clicks = () => {
       map.style.backgroundImage = "url('https://i.imgur.com/oaG7tM4.jpg')";
       buttonS1WegenDepth.classList.toggle("control-button-active");
     });
+
+    buttonCupureAfsluiting.addEventListener("click", event => {
+      buttons.forEach(button => {
+        button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/BfENFSk.jpg')";
+      buttonCupureAfsluiting.classList.toggle("control-button-active");
+    });
+
 
 
 
