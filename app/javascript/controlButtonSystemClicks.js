@@ -49,14 +49,23 @@ const controlButtonSystemClicks = () => {
     console.log("critical-point1")
 
     const buttonCP1STopview = document.querySelector("#CP1_topview");
+    const buttonCP1SSideview = document.querySelector("#CP1_sideview");
 
 
     buttonCP1STopview.addEventListener("click", event => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/rCiRyUx.png')";
+      map.style.backgroundImage = "url('https://i.imgur.com/SbZBMUD.png')";
       buttonCP1STopview.classList.toggle("control-button-active");
+    });
+
+    buttonCP1SSideview.addEventListener("click", event => {
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/BENLlgM.jpg')";
+      buttonCP1SSideview.classList.toggle("control-button-active");
     });
 
 
