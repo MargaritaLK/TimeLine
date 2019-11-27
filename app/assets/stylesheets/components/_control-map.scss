@@ -2,8 +2,10 @@
   min-height: 100%;
   width: 50%;
   background-image: url(https://i.imgur.com/n8HkX2C.jpg);
-  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.2);
-  background-size: cover;
+  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.1);
+  // background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
   position:relative;
 
