@@ -22,7 +22,7 @@ const controlButtonSystemClicks = () => {
     const buttonQS1T3u30 = document.querySelector("#QS1T3u30");
     const buttonQS1T4u00 = document.querySelector("#QS1T4u00");
     const buttonQS1T4u30 = document.querySelector("#QS1T4u30");
-    const buttonQS1T5u00 = document.querySelector("#QS1T5u00");
+    // const buttonQS1T5u00 = document.querySelector("#QS1T5u00");
 
 
     buttonQS1T0u30.addEventListener("click", event => {
@@ -97,13 +97,13 @@ const controlButtonSystemClicks = () => {
       buttonQS1T4u30.classList.toggle("control-button-active");
     });
 
-    buttonQS1T5u00.addEventListener("click", event => {
-       buttons.forEach(button => {
-         button.classList.remove("control-button-active");
-      });
-      map.style.backgroundImage = "url('https://i.imgur.com/na7reyp.jpg')";
-      buttonQS1T5u00.classList.toggle("control-button-active");
-    });
+    // buttonQS1T5u00.addEventListener("click", event => {
+    //    buttons.forEach(button => {
+    //      button.classList.remove("control-button-active");
+    //   });
+    //   map.style.backgroundImage = "url('https://i.imgur.com/na7reyp.jpg')";
+    //   buttonQS1T5u00.classList.toggle("control-button-active");
+    // });
 
 
   };
