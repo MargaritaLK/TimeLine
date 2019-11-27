@@ -45,7 +45,7 @@ const controlButtonT48Clicks = () => {
       buttons.forEach(button => {
         button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/BfENFSk.jpg')";
+      map.style.backgroundImage = "url('https://i.imgur.com/4L39D31.jpg')";
       buttonCupureAfsluiting.classList.toggle("control-button-active");
     });
 
