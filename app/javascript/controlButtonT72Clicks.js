@@ -51,12 +51,13 @@ const controlButtonT72Clicks = () => {
     const buttonKeringen = document.querySelector("#keringen");
     const buttonWegen = document.querySelector("#wegen");
     const buttonVitaleAssets = document.querySelector("#vitale-assets");
+    const buttonKeringenVitaleAssets = document.querySelector("#keringen-vitale-assets");
 
     buttonKeringen.addEventListener("click", event => {
        buttons.forEach(button => {
          button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/9H1f6qN.jpg')";
+      map.style.backgroundImage = "url('https://i.imgur.com/kUeGSHu.jpg')";
       buttonKeringen.classList.toggle("control-button-active");
     });
 
@@ -73,9 +74,15 @@ const controlButtonT72Clicks = () => {
          button.classList.remove("control-button-active");
       });
       map.style.backgroundImage = "url('https://i.imgur.com/tPxD4jj.jpg')";
-      // map.classList.add("control-map-fixed");
       buttonVitaleAssets.classList.toggle("control-button-active");
-      // map.classList.remove("control-map-fixed");
+    });
+
+    buttonKeringenVitaleAssets.addEventListener("click", event => {
+       buttons.forEach(button => {
+         button.classList.remove("control-button-active");
+      });
+      map.style.backgroundImage = "url('https://i.imgur.com/8wRxhC2.jpg')";
+      buttonKeringenVitaleAssets.classList.toggle("control-button-active");
     });
 
   };
