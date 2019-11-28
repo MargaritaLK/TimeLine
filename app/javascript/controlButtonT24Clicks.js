@@ -191,7 +191,7 @@ if (scen2Wegen) {
       buttons.forEach(button => {
         button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/pH4QOzt.jpg')";
+      map.style.backgroundImage = "url('https://i.imgur.com/iIbiQq2.jpg')";
       buttonS2WaterDepth.classList.toggle("control-button-active");
     });
 

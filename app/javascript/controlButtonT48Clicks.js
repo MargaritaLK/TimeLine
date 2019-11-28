@@ -21,7 +21,7 @@ const controlButtonT48Clicks = () => {
       buttons.forEach(button => {
         button.classList.remove("control-button-active");
       });
-      map.style.backgroundImage = "url('https://i.imgur.com/gzOaNHX.jpg')";
+      map.style.backgroundImage = "url('https://i.imgur.com/lcapKFa.jpg')";
       buttonS1WaterDepth.classList.toggle("control-button-active");
     });
 
