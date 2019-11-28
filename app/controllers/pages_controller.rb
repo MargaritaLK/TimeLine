@@ -23,5 +23,11 @@ class PagesController < ApplicationController
   def system
   end
 
+  def videoS1
+  end
+
+  def videoS2
+  end
+
 
 end
