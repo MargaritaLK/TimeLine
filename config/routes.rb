@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   get '/doorbraak', to: 'pages#doorbraak'
   get '/info', to: 'pages#info'
   get '/system', to: 'pages#system'
+  get '/videoS1', to: 'pages#videoS1'
+  get '/videoS2', to: 'pages#videoS2'
   # get '/info', to: 'pages#info'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
