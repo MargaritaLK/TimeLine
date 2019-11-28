@@ -29,5 +29,13 @@ class PagesController < ApplicationController
   def videoS2
   end
 
+  def journaalT72
+  end
+
+  def journaalT48
+  end
+
+  def journaalT0
+  end
 
 end

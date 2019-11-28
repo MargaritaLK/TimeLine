@@ -10,6 +10,9 @@ Rails.application.routes.draw do
   get '/system', to: 'pages#system'
   get '/videoS1', to: 'pages#videoS1'
   get '/videoS2', to: 'pages#videoS2'
+  get '/journaalT72', to: 'pages#journaalT72'
+  get '/journaalT48', to: 'pages#journaalT48'
+  get '/journaalT0', to: 'pages#journaalT0'
   # get '/info', to: 'pages#info'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
