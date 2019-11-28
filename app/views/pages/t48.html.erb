@@ -37,7 +37,11 @@
           <div class="control-button" id="S1T24u">+24uur</div>
           <div class="control-button" id="S1T36u">+36uur</div>
           <div class="control-button" id="S1Teind">eind</div>
-          <div class="control-button" style="color:grey;" id="S1video">video</div>
+
+          <%= link_to videoS1_path do %>
+            <div class="control-button" id="S1video">video</div>
+          <% end %>
+
         </div>
       </div>
 
@@ -55,7 +59,11 @@
           <div class="control-button" id="S2T12u">+12uur</div>
           <div class="control-button" id="S2T24u">+24uur</div>
           <div class="control-button" id="S2Teind">eind</div>
-          <div class="control-button" style="color:grey;"id="S2Tvideo">video</div>
+
+          <%= link_to videoS2_path do %>
+            <div class="control-button" id="S1video">video</div>
+          <% end %>
+
         </div>
       </div>
 
