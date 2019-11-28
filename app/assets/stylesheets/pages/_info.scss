@@ -1,5 +1,26 @@
 
 .general-info {
- color: white;
- width: 30%;
+  width: 70vw;
+  min-height: 80vh;
+  color: white;
+  font-weight:200;
+  margin: 40px auto;
+  position: absolute;
+  left: 5vw;
+  top: 5vh;
+
 }
+
+
+.general-info p {
+ font-size: 15px;
+ margin: 4px 0px;
+}
+
+
+.general-info h5 {
+ font-weight:200;
+}
+
+
+
