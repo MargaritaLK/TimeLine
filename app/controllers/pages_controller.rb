@@ -2,10 +2,10 @@ class PagesController < ApplicationController
   def home
   end
 
-  def inloop
+  def impressie
   end
 
-  def introductie
+  def inloop
   end
 
   def t72

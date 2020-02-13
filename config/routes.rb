@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root to: 'pages#home'
+  get '/impressie', to: 'pages#impressie'
   get '/inloop', to: 'pages#inloop'
-  get '/introductie', to: 'pages#introductie'
   get '/t72', to: 'pages#t72'
   get '/t48', to: 'pages#t48'
   get '/t24', to: 'pages#t24'
