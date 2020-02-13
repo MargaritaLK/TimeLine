@@ -1,0 +1,86 @@
+
+
+
+.impressie-container {
+  width: 85vw;
+  margin: 0 auto;
+
+}
+
+.impressie-video {
+  margin: 50px auto;
+  height: 800px;
+  width: 80%;
+  // border: red 5px solid;
+}
+
+
+
+.impressie-fotos {
+  height: 600px;
+  width: 100%;
+  margin: 50px 0;
+  // border: green 5px solid;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.impressie-foto1  {
+  height: 100%;
+  width: 46%;
+  background-image: url(https://source.unsplash.com/YXemfQiPR_E/1600x900);
+  // border: 2px yellow solid;
+}
+
+.impressie-foto2  {
+  height: 100%;
+  width: 46%;
+  // border: 2px yellow solid;
+  background-image: url(https://source.unsplash.com/wgivdx9dBdQ/1600x900);
+}
+
+
+
+
+.impressie-facts {
+  height: 200px;
+  width: 100%;
+  margin: 50px 0;
+  border: yellow 5px solid;
+  color: white;
+  font-weight: 50;
+  padding: 30px;
+}
+
+.impressie-tekst h1 {}
+
+
+.impressie-tekst {
+  height: 600px;
+  width: 100%;
+  margin: 50px 0;
+  // border: purple 5px solid;
+}
+
+
+
+.impressie-background {
+  opacity: 0.3;
+  height: 400vh;
+  width: 130vw;
+  margin: -100px;
+  // background-image: url(https://source.unsplash.com/9l_326FISzk/1600x900);
+  background-image: url(https://source.unsplash.com/FD_sabE544U/1600x900);
+  // background-image: url(https://source.unsplash.com/1v-snxcyHHk/1600x900);
+  // background-size: contain;
+  // background-repeat: no-repeat;
+  // background-position: center;
+  z-index: -1;
+  position: absolute;
+  border-image-repeat: stretch;
+}
+
+
+
+
