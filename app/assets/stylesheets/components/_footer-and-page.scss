@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 50px;
+  padding: 0px 30px;
   color: #D1D1D1;
   position: fixed;
   left: 0;
@@ -37,7 +37,7 @@
 .footer-right  {
   color: #F26430;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 35px;
   // padding: 10px 10px;
   display: flex
 }
@@ -45,5 +45,5 @@
 
 
 .footer-right i {
-  margin: 18px 0px;
+  margin: 18px 5px;
 }
