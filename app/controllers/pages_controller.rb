@@ -41,4 +41,7 @@ class PagesController < ApplicationController
   def journaalT0
   end
 
+  def krant
+  end
+
 end
