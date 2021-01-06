@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
 
   http_basic_authenticate_with name: ENV["USER1"], password: ENV["PASS1"], except: :home
+  # http_basic_authenticate_with name: ENV["USER1"], password: ENV["PASS1"], except: :home :denhelder
 
   def home
   end
