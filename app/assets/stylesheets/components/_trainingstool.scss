@@ -1,0 +1,75 @@
+
+
+
+
+#achtergrond_traingstool {
+  opacity: 0.5;
+  height: 100vh;
+  // background-image: url(https://source.unsplash.com/wfh8dDlNFOk/1600x900);
+  background-image: url(https://source.unsplash.com/wfh8dDlNFOk);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -10;
+  position: relative;
+
+}
+
+
+.naartoolknop {
+  width: 400px;
+  height: 75px;
+  border: solid 1px #F26430;
+  border-radius: 20px;
+  margin: 30px 0;
+  color: #F26430;
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 0.08em;
+}
+
+
+
+.naartoolknop:hover {
+  color: #364559;
+  background-color: #F26430;
+}
+
+
+
+.traininstool-content-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 15vh;
+
+}
+
+
+.main-title-trainingstool {
+  color: #F26430;
+  letter-spacing: 0.1em;
+  font-size: 85px;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+
+}
+
+
+.tu-trainingstool {
+  color: white;
+  letter-spacing: 0.04em;
+  font-size: 50px;
+  font-weight: 400;
+  margin: 100px 0 50px 0;
+}
+
+.traingstool-tekst {
+  color:white;
+  width: 50%;
+  font-weight:200;
+  font-size: 16px;
+  opacity:0.8;
+}

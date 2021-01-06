@@ -44,4 +44,8 @@ class PagesController < ApplicationController
   def krant
   end
 
+
+  def denhelder
+  end
+
 end

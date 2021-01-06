@@ -23,6 +23,7 @@
 }
 
 
+
 .mainpage-container {
   width: 90vw;
   height: 80vh;
@@ -54,11 +55,17 @@
   letter-spacing: 0.039em;
 }
 
+.toegangsmelding {
+   color: white;
+  font-weight: 200;
+  font-size: 20px;
+  margin: 20px 0;
+}
 
 .author {
   color: white;
   font-weight: 200;
   font-size: 40px;
   position: absolute;
-  bottom: 100px;
+  bottom: 200px;
 }
