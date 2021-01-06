@@ -28,7 +28,7 @@
  .nav-active {
   background-color: #F26430;
   opacity: 0.8;
-  // z-index: 0;
+  border-radius: 9px;
 }
 
 .link-page {
@@ -46,7 +46,9 @@
 
 
 .nav-inloop {
-  background: url(https://i.imgur.com/OUPFXRl.png);
+  // background: url(https://i.imgur.com/OUPFXRl.png);
+  background: url(https://i.imgur.com/AdgTY6d.png);
+
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
